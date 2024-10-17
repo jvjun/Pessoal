@@ -1,0 +1,50 @@
+apis
+
+iSolarCloud - 
+
+email
+
+Growatt - 
+email
+
+canadian- 
+email 
+
+Assunto: Solicitação de Permissão para Uso de APIs de Monitoramento Solar
+
+Bom dia, José.
+
+Meu nome é João e sou parte da equipe de TI da Neogier. Coloquei o Felipe de Sousa em cópia para que ele possa acompanhar o progresso deste assunto.
+
+Como você bem sabe, estamos desenvolvendo um sistema de monitoramento em tempo real para as unidades fotovoltaicas da Holambra, para isso será necessário a utilização de APIs (Application Programming Interfaces). Essas serão necessárias para acessar e consolidar as informações de geração de energia das usinas em tempo real.
+
+Para a implementação, precisamos obter permissões para acessar as APIs das plataformas que fazemos monitoramento. São elas:
+
+    iSolarCloud: [link do site]
+    Growatt: [link do site]
+    Canadian Solar: [link do site]
+	
+
+Cada uma dessas plataformas requer uma autorização específica para que possamos acessar seus dados via API. Para seguir com nossa integração, solicitamos que você entre em contato com essas plataformas para solicitar as permissões necessárias. É importante que obtenhamos a documentação técnica que será fornecida após a autorização, pois ela é essencial para a configuração adequada das APIs em nosso sistema.
+
+A autorização e a documentação fornecida garantirão que nossa solução possa operar de maneira eficiente e integrada, oferecendo um monitoramento solar mais preciso e eficaz para nossos clientes.
+
+Agradeço antecipadamente pela sua assistência nesta tarefa crucial.
+
+Atenciosamente,
+João
+
+mysql -u root -p
+
+truncate table client1;
+truncate table history_c1;
+truncate table client2;
+truncate table history_c2;
+
+
+select*from client1;
+select*from history_c1;
+select*from client2;
+select*from history_c2;
+
+result=f.get_report('month' ,d=date_str, v=['generation'], summary=1)
