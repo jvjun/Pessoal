@@ -1,0 +1,50 @@
+todos os arquivos que vão ser trabalhados está em NeogierY > estudos> semanais> (ano atual) > informes atualizados
+Primeiramente começar baixando a medição da https://www.ccee.org.br/en/precos/painel-precos,desce para planilhas para download dos dados históricos e mudar o "TIPO" para preço horário, e selecionar a dada semanal (conferir no PLD_horarios). o nome do arquivo deve ser preco_horario, depois de baixado abrir a planilha pdl_horario aba PLDs e copiar e colar do preco_horario baixado depois índice e clicar no botão da macro para atualizar outras planilhas.
+
+Xa semana operativa - (abrir castrolando e Neogier)
+Conferir:
+-Cabeçalho: a  primeira coisa é a semana operativa do relatório, mudar para a semana operativa atual. (do ultimo sábado até a sexta dessa semana)
+
+*Atenção a virada de mês*
+-datas e nomes de mês (se esta tudo conforme a semana operativa)em viradas de mês é necessário conferir as datas e a semanal, pois vc pode ou não estar mexendo com a ultima semana do Mês e ela ser a primeira do próximo (perguntar ao duck na dúvida)
+
+-gráficos: substituir todos os gráficos que forem possíveis, no caso de preferencia para clicar com o botão direito > "Alterar gráfico" > "Da área de transferência", ele cola como imagem e facilita não ter nenhum erro. Alguns gráficos são melhores salvar como gráficos mesmo direto das planilhas, pois, quando salvos como imagem ficam em formatação ruim.
+
+-Análise climática: deve abrir a pasta da semanal operativa atual, abrir o PMO que já vai estar na pasta (caso não esteja avisar o duck) e pegar os dados operativos, se atentar a legenda das figuras, atualizar a semana operativa.
+
+-Reservatórios: Energia Armazenada Observada: os graficos devem ser pegos do reservatorio_grafico_x_mes
+
+-previsão e evolução da ENA: copiar da planilha automatica a tabela pmo, e os graficos da planilha ENAS_Gráfico_X_MES
+
+-Carga prevista: copiar da aba carga da plainlha automática e atualizar revisão para atual
+
+-geração termina prevista: Planilha automática, e atualizar a legenda para semana atual
+
+-Preços: Pedir ao duck, atualizar na planilha automática
+
+-bandeira tarifária:ver se no mes atualizou (conferir com duck)
+
+PLANILHA PDL_horarios
+-Indice : clicar no botão para atualizar as planilhas
+-PLDs: copiar e colar os valores atualizados da planilha baixada da ccee
+-PLDsemanais: criar nova linha (ela deve ser da semana operativa que estamos mexendo) e depois copiar e colar os 4 valores de k133 até n133 na nova linha criada (f,g,h alguma coisa), depois clicar nos gráficos e inserir os valores, depois copiar os gráficos e substituir nos words respectivos
+-PDLhorarios(aba da planilha): copiar os gráficos e substituirs nos words respectivos
+
+
+PLANILHA automatica:
+-PDL: na linha b4, atualizar para semana atual que estamos lidando e na b5 mudar a data para a data da semana atual, depois clicar em atualizar semana operativa. copiar os valores de c11-c14 na semana da tabela do PLD (R$/MWh). copiar e colar os respectivos graficos
+-Carga: copiar e colar os valores sin da tabela evolução da carga do pmo.
+
+PMO:
+- Condições antecedentes: copiar o texto e colar na analise climatica (Fig1), copiar e colar o grafico da semana
+-Previsões - Próxima semana: copiar o texto e colar na analise climatica (Fig2), copiar e colar o grafico da semana prevista.
+– Previsão de %EARmáx para o final do mês: copiar tudo e colar na aba banco de dados da planilha reservatorios_grafico_x_mes (na area destacada)
+
+planilha reservatorios_grafico_x_mes:
+-atualizar a aba banco de dados com os valores do pmo e depois ir em cada aba e copiar os graficos no word. (em troca de mês, deve-se puxar o código do mês anterior para o atual)
+
+ENA:
+pegar a tabela depois da previsão e copiar e colar na aba ena da planilha automática
+
+ENAS_GRAFICOS_X_MES: copiar e colar os valores da tabela embaixo das previsões do pmo e substituir os gráficos, mudar a ver atual que estamos.
+
